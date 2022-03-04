@@ -1,0 +1,124 @@
+html {
+    color: rgb(99, 99, 99);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    min-height: 100%;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.step {
+    flex-direction: column;
+}
+
+.step2,
+.step3,
+.step4,
+.step5,
+.step6 {
+    display: none;
+}
+
+.form {
+    max-width: 70%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    align-items: center; 
+}
+
+input {
+    padding: 5px 10px;
+}
+
+fieldset {
+    border: 1px solid rgba(150, 150, 150, 0.555);
+    border-radius: 8px;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.age__form {
+
+}
+.age {
+    margin: 5px;
+
+}
+
+.education__form {
+
+}
+.education {
+    margin: 5px;
+}
+.step4 {
+}
+.job__form {
+}
+.job {
+    margin: 5px;
+}
+
+.name__form {
+}
+.name {
+    margin: 5px;
+}
+.phone {
+    margin: 5px;
+}
+
+.thanks {
+}
+.thanks__body {
+
+}
+
+/* Кнопки */ 
+
+.btn {
+    border-radius: 8px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    padding: 10px 20px;
+    color:rgb(99, 99, 99);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+.back {
+    margin: 20px 0;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="style.css" type='text/css' rel='stylesheet' />
+</head>
+<body>
+    <header class="header">
+        <h1>Тест</h1>
+    </header>
+    <main class="main">
+        <section class="forms">
+            <form class="form" action="">
+                <div class="step step1">
+                    <h2>
+                        В каком городе вы живете?
+                    </h2>
+                        <fieldset class="city__form">
+
+                            <label for="city1">
+                            <input id="city1" class="city" name="city" type="radio" value="Москва">
+                            Москва
+                            </label>
+
+                            <label for="city2">
+                            <input id="city2" class="city" name="city" type="radio" value="Санкт-Петербург">
+                            Санкт-Петербург</label> 
+
+                            <label for="city3"> 
+                            <input id="city3" class="city" name="city" type="radio" value="Ростов-На-Дону">
+                            Ростов-На-Дону</label> 
+
+                            <label for="city4">
+                            <input id="city4" class="city" name="city" type="radio" value="Другой">
+                            Другой</label>  
+                            <input type="text" style="display: none;"  name="city__other" placeholder="Ваш город">
+
+                        </fieldset>
+                </div>
+
+                <div class="step step2">
+                    <h2>
+                        Ваш возраст:
+                    </h2>
+                        <fieldset class="age__form">
+
+                            <label for="age1">
+                            <input id="age1" class="age" name="age" type="radio" value="16">
+                            16</label>
+
+                            <label for="age2">
+                            <input id="age2" class="age" name="age" type="radio" value="18">
+                            18</label> 
+
+                            <label for="age3">
+                            <input id="age3" class="age" name="age" type="radio" value="20">
+                            20</label> 
+
+                            <label for="age4">
+                            <input id="age4" class="age" name="age" type="radio" value="Другой">
+                            Другой</label>  
+                            <input type="number" style="display: none;" name="age__other" placeholder="Ваш возраст">
+                        </fieldset>
+                </div>
+
+                <div class="step step3">
+                    <h2>
+                        Место учёбы:
+                    </h2>
+                        <fieldset class="education__form">
+
+                            <label for="education1">Название учебного заведения
+                            <input id="education1" class="education" name="education__name" type="text"></label>
+
+                            <label for="education2">Год начала обучения:
+                            <input id="education2" class="education" name="education__start" type="date"></label> 
+
+                            <label for="education3">Год окончания обучения:
+                            <input id="education3" class="education" name="education__end" type="date"></label> 
+                            
+                            <label for="education4">
+                            <input id="education4" class="education" name="education__current" type="checkbox">
+                            По настоящее время</label>  
+                        </fieldset>
+                </div>
+
+                <div class="step step4">
+                    <h2>
+                        Место работы:
+                    </h2>
+                        <fieldset class="job__form">
+
+                            <label for="job1">Название фирмы/организации/магазина
+                            <input id="job1" class="job" name="job__name" type="text"></label>
+
+                            <label for="job2">Год начала работы:
+                            <input id="job2" class="job" name="job__start" type="date"></label> 
+
+                            <label for="job3">Год окончания работы:
+                            <input id="job3" class="job" name="job__end" type="date"></label> 
+
+                            <label for="job4">
+                            <input id="job4" class="job" name="job__current" type="checkbox">
+                            По настоящее время</label>  
+                        </fieldset>
+                </div>
+
+                <div class="step step5">
+                    <h2>
+                        Контактные данные:
+                    </h2>
+                        <fieldset class="name__form">
+
+                            <label for="name">ФИО:
+                            <input id="name" class="name" name="fullname" type="text" placeholder="Ваше имя"></label>
+
+                            <label for="phone">Номер телефона:
+                            <input id="phone" class="phone" name="phone" type="text" placeholder="+7(999) 999 99 99"></label>
+                        </fieldset>
+                </div>
+
+                <div class="step step6">
+                        <section class="thanks">
+                            <div class="thanks__body">
+                                <h2>Спасибо за заявку!</h2>
+                            </div>
+                        </section>
+                </div>
+                    <button id="back" class="back btn" type="button" style="display: none;">Назад</button>
+                    <button id="next" class="next btn" type="button" style="margin-top: 20px;">Далее</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
